@@ -18,3 +18,5 @@
 !.config/nvim/**
 !.config/kitty/
 !.config/kitty/**
+!.config/rofi/
+!.config/rofi/**

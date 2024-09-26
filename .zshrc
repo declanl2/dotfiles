@@ -106,9 +106,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+
 # Oh My Posh
 
 OMYPOSH_THEME="https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/tokyonight_storm.omp.json"
-
 eval "$(oh-my-posh init zsh --config "$OMYPOSH_THEME")"
+
+# Rofi
+export PATH=$HOME/.config/rofi/scripts:$PATH
