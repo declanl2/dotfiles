@@ -109,4 +109,6 @@ source $ZSH/oh-my-zsh.sh
 #
 # Oh My Posh
 
-eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/tokyonight_storm.omp.json')"
+OMYPOSH_THEME="https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/tokyonight_storm.omp.json"
+
+eval "$(oh-my-posh init zsh --config "$OMYPOSH_THEME")"
