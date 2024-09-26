@@ -11,4 +11,6 @@
 # Except for these folders.
 !.github/
 !.github/**
-
+!.config/
+!.config/foot/
+!.config/foot/**
