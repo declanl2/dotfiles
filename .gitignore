@@ -16,3 +16,5 @@
 !.config/foot/**
 !.config/nvim/
 !.config/nvim/**
+!.config/kitty/
+!.config/kitty/**
