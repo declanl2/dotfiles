@@ -107,6 +107,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Custom Aliases
+alias nv="nvim"
+alias open="xdg-open"
+alias shutdown="sudo shutdown -h now"
+
 # Oh My Posh
 
 OMYPOSH_THEME="https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/tokyonight_storm.omp.json"
