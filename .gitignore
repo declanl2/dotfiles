@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Except for these files.
+!.gitignore
+!.gitconfig
+!.zshrc
+!.vimrc
+!README.md
+
+# Except for these folders.
+!.github/
+!.github/**
+
