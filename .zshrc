@@ -111,6 +111,9 @@ source $ZSH/oh-my-zsh.sh
 alias nv="nvim"
 alias open="xdg-open"
 alias shutdown="sudo shutdown -h now"
+alias reboot="sudo reboot"
+alias monoff="kscreen-doctor output.HDMI-A-2.disable"
+alias monon="kscreen-doctor output.HDMI-A-2.enable"
 
 # Oh My Posh
 
