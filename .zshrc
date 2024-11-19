@@ -126,3 +126,5 @@ eval "$(oh-my-posh init zsh --config "$OMYPOSH_THEME")"
 # Rofi
 export PATH=$HOME/.config/rofi/scripts:$PATH
 
+alias zyp=zypper
+alias fp=flatpak
