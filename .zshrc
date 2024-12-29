@@ -128,3 +128,4 @@ export PATH=$HOME/.config/rofi/scripts:$PATH
 
 alias zyp=zypper
 alias fp=flatpak
+export PATH=$PATH:$HOME/go/bin
