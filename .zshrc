@@ -117,15 +117,17 @@ alias monoff="kscreen-doctor output.HDMI-A-2.disable"
 alias monon="kscreen-doctor output.HDMI-A-2.enable"
 alias protontricks='flatpak run com.github.Matoking.protontricks'
 alias protontricks-launch='flatpak run --command=protontricks-launch com.github.Matoking.protontricks'
+alias zyp=zypper
+alias fp=flatpak
+alias "clip=xclip -selection clipboard"
 
 # Oh My Posh
-
 OMYPOSH_THEME="https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/tokyonight_storm.omp.json"
 eval "$(oh-my-posh init zsh --config "$OMYPOSH_THEME")"
 
 # Rofi
 export PATH=$HOME/.config/rofi/scripts:$PATH
 
-alias zyp=zypper
-alias fp=flatpak
+# Golang
 export PATH=$PATH:$HOME/go/bin
+
